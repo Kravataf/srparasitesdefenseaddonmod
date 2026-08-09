@@ -16,7 +16,7 @@
       "type": "recipe",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     }
   ],
