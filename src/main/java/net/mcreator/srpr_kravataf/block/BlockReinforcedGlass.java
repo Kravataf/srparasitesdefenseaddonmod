@@ -44,6 +44,7 @@ public class BlockReinforcedGlass extends ElementsScapeandRunReinforced.ModEleme
 			super(Material.GLASS);
 			setUnlocalizedName("reinforcedglass");
 			setSoundType(SoundType.GLASS);
+			setHarvestLevel("pickaxe", 3);
 			setHardness(100F);
 			setResistance(1000F);
 			setLightLevel(0F);
