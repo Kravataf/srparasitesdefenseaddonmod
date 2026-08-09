@@ -73,7 +73,7 @@
       "tile.reinforcedglass.name": "Reinforced Glass",
       "tile.reinforcedstonebricks.name": "Reinforced Stone Bricks",
       "tile.reinforcedoakwoodplanks.name": "Reinforced Oak Wood Planks",
-      "itemGroup.tabsrpr": "SRPR"
+      "itemGroup.tabsrpr": "Scape and Run: Reinforced"
     }
   },
   "workspaceSettings": {
