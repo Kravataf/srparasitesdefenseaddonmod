@@ -100,7 +100,7 @@
       "type": "recipe",
       "sortid": 10,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     }
   ],
