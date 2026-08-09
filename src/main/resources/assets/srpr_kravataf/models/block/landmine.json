@@ -1,0 +1,8 @@
+{
+  "parent": "srpr_kravataf:custom/landmine",
+  "textures": {
+    "all": "srpr_kravataf:blocks/landmine_texture",
+    "particle": "srpr_kravataf:blocks/landmine_texture",
+    "0": "srpr_kravataf:blocks/landmine_texture"
+  }
+}

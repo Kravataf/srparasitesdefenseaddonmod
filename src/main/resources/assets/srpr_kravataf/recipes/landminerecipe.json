@@ -1,0 +1,29 @@
+{
+  "group": "srpr_kravataf",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "srparasites:lurecomponent2"
+    },
+    "3": {
+      "item": "minecraft:stone",
+      "data": 32767
+    },
+    "4": {
+      "item": "minecraft:stone",
+      "data": 32767
+    },
+    "5": {
+      "item": "minecraft:stone",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "srpr_kravataf:landmine",
+    "count": 1
+  }
+}

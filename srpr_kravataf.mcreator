@@ -4,7 +4,7 @@
   },
   "mod_elements": [
     {
-      "name": "SentientMine",
+      "name": "ReinforcedStoneBricks",
       "type": "block",
       "sortid": 1,
       "compiles": true,
@@ -12,65 +12,39 @@
       "ids": {}
     },
     {
-      "name": "SentientMineExplode",
-      "type": "procedure",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CraftSentientMine",
+      "name": "RStoneBricksRecipe",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": true,
       "ids": {}
     },
     {
-      "name": "FleshArmor",
-      "type": "armor",
-      "sortid": 4,
+      "name": "ReinforcedOakWoodPlanks",
+      "type": "block",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
+      "ids": {}
     },
     {
-      "name": "PlateOfFlesh",
-      "type": "item",
+      "name": "ROakWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "ReinforcedGlass",
+      "type": "block",
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "CraftPlateOfFlesh",
+      "name": "RGlassRecipe",
       "type": "recipe",
       "sortid": 6,
       "compiles": true,
@@ -78,131 +52,25 @@
       "ids": {}
     },
     {
-      "name": "CraftFleshHelmet",
-      "type": "recipe",
+      "name": "SRPR",
+      "type": "tab",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "CraftFleshBody",
-      "type": "recipe",
+      "name": "LandMine",
+      "type": "block",
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "CraftFleshLeggings",
-      "type": "recipe",
+      "name": "LandMineExplode",
+      "type": "procedure",
       "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "CraftFleshBoots",
-      "type": "recipe",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "SrpDAWelcomeAdvancement",
-      "type": "achievement",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "SrpDAcreativetab",
-      "type": "tab",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ToughRock",
-      "type": "block",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ToughWood",
-      "type": "block",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FleshArmorPassiveEffect",
-      "type": "procedure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CraftToughRock",
-      "type": "recipe",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "CraftToughWood",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Dynamite",
-      "type": "gun",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 2
-      }
-    },
-    {
-      "name": "DynamiteUsed",
-      "type": "procedure",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "DynamiteExplode",
-      "type": "procedure",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -228,60 +96,11 @@
       }
     },
     {
-      "name": "CraftDynamite",
+      "name": "LandMineRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 10,
       "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ToughGlass",
-      "type": "block",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "CraftToughGlass",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ReinforcedSteelBar",
-      "type": "item",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "reinforcedironbar"
-    },
-    {
-      "name": "CraftReinforcedSteelBar",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ToughenUpAdvancement",
-      "type": "achievement",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FleshArmorAdvancement",
-      "type": "achievement",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     }
   ],
@@ -295,41 +114,30 @@
   ],
   "language_map": {
     "en_us": {
-      "tile.sentientmine.name": "Sentient Mine",
-      "tile.toughglass.name": "Tough Glass",
-      "advancements.toughenupadvancement.title": "Toughen Up",
-      "item.plateofflesh.name": "Plate of Flesh",
-      "tile.toughrock.name": "Tough Stone",
-      "itemGroup.tabsrpdacreativetab": "SRP: Defense Addon",
-      "item.flesharmorlegs.name": "Flesh Leggings",
-      "advancements.srpdawelcomeadvancement.title": "SRP: Reinforced",
-      "item.dynamite.name": "Dynamite",
-      "advancements.toughenupadvancement.descr": "Craft Reinforced Iron Bars",
-      "advancements.srpdawelcomeadvancement.descr": "Adds traps and other stuff to help you survive amongst the parasites",
-      "item.flesharmorboots.name": "Flesh Boots",
-      "advancements.flesharmoradvancement.descr": "Equip a piece of Flesh Armor",
-      "item.flesharmorhelmet.name": "Flesh Helmet",
-      "tile.toughwood.name": "Tough Oak Wood Planks",
-      "item.flesharmorbody.name": "Flesh Body",
-      "advancements.flesharmoradvancement.title": "Prepare",
-      "item.reinforcedironbar.name": "Reinforced Iron Bars"
+      "tile.reinforcedglass.name": "Reinforced Glass",
+      "tile.reinforcedstonebricks.name": "Reinforced Stone Bricks",
+      "tile.landmine.name": "Land Mine",
+      "tile.reinforcedoakwoodplanks.name": "Reinforced Oak Wood Planks",
+      "itemGroup.tabsrpr": "Scape and Run: Reinforced"
     }
   },
   "workspaceSettings": {
     "modid": "srpr_kravataf",
     "modName": "Scape and Run: Reinforced",
-    "version": "1.0.5",
+    "version": "2.0.0",
     "description": "Adds stuff to help you survive among the parasites",
     "author": "kravataf",
-    "websiteURL": "https://kravataf.com",
+    "websiteURL": "https://youtube.com/@kravataf?sub_confirmation\u003d1",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "srparasites"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
-    "credits": "made by kravataf using mcreator, blockbench and piskel",
+    "credits": "made by me",
     "modElementsPackage": "net.mcreator.srpr_kravataf",
     "lockBaseModFiles": false
   },

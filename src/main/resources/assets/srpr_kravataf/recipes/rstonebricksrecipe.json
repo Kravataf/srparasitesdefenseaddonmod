@@ -1,0 +1,31 @@
+{
+  "group": "srpr_kravataf",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "srparasites:assimilated_flesh"
+    },
+    "3": {
+      "item": "srparasites:assimilated_flesh"
+    },
+    "4": {
+      "item": "minecraft:stonebrick",
+      "data": 0
+    },
+    "5": {
+      "item": "srparasites:assimilated_flesh"
+    },
+    "7": {
+      "item": "srparasites:assimilated_flesh"
+    }
+  },
+  "result": {
+    "item": "srpr_kravataf:reinforcedstonebricks",
+    "count": 1
+  }
+}

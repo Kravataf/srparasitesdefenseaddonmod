@@ -1,8 +1,0 @@
-{
-  "parent": "srpr_kravataf:custom/sentientminev2",
-  "textures": {
-    "all": "srpr_kravataf:blocks/entientineexture",
-    "particle": "srpr_kravataf:blocks/entientineexture",
-    "0": "srpr_kravataf:blocks/entientineexture"
-  }
-}

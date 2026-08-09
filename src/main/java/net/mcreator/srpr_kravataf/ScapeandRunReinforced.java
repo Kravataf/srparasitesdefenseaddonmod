@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = ScapeandRunReinforced.MODID, version = ScapeandRunReinforced.VERSION)
 public class ScapeandRunReinforced {
 	public static final String MODID = "srpr_kravataf";
-	public static final String VERSION = "1.0.5";
+	public static final String VERSION = "2.0.0";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("srpr_kravataf:a");
 	@SidedProxy(clientSide = "net.mcreator.srpr_kravataf.ClientProxyScapeandRunReinforced", serverSide = "net.mcreator.srpr_kravataf.ServerProxyScapeandRunReinforced")
 	public static IProxyScapeandRunReinforced proxy;
