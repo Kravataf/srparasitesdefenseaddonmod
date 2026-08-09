@@ -14,7 +14,9 @@
     ],
     "dependencies": [],
     "dependants": [],
-    "requiredMods": [],
+    "requiredMods": [
+      "srparasites"
+    ],
     "useDependencyInformation": "true"
   }
 ]

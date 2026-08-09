@@ -18,6 +18,22 @@
       "compiles": true,
       "locked_code": true,
       "ids": {}
+    },
+    {
+      "name": "ReinforcedOakWoodPlanks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ROakWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -30,7 +46,8 @@
   ],
   "language_map": {
     "en_us": {
-      "tile.reinforcedstonebricks.name": "Reinforced Stone Bricks"
+      "tile.reinforcedstonebricks.name": "Reinforced Stone Bricks",
+      "tile.reinforcedoakwoodplanks.name": "Reinforced Oak Wood Planks"
     }
   },
   "workspaceSettings": {
@@ -42,7 +59,9 @@
     "websiteURL": "https://youtube.com/@kravataf?sub_confirmation\u003d1",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "srparasites"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
