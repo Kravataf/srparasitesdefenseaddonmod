@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "srpr_kravataf:blocks/reinforced_stone_bricks",
+    "up": "srpr_kravataf:blocks/reinforced_stone_bricks",
+    "north": "srpr_kravataf:blocks/reinforced_stone_bricks",
+    "east": "srpr_kravataf:blocks/reinforced_stone_bricks",
+    "south": "srpr_kravataf:blocks/reinforced_stone_bricks",
+    "west": "srpr_kravataf:blocks/reinforced_stone_bricks",
+    "particle": "srpr_kravataf:blocks/reinforced_stone_bricks"
+  }
+}

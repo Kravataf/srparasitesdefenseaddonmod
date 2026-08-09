@@ -2,7 +2,24 @@
   "id_map": {
     "ENTITY": 2
   },
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ReinforcedStoneBricks",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RStoneBricksRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [
     {
@@ -12,15 +29,17 @@
     }
   ],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "tile.reinforcedstonebricks.name": "Reinforced Stone Bricks"
+    }
   },
   "workspaceSettings": {
     "modid": "srpr_kravataf",
     "modName": "Scape and Run: Reinforced",
-    "version": "1.0.5",
+    "version": "2.0.0",
     "description": "Adds stuff to help you survive among the parasites",
     "author": "kravataf",
-    "websiteURL": "https://kravataf.com",
+    "websiteURL": "https://youtube.com/@kravataf?sub_confirmation\u003d1",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -28,7 +47,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
-    "credits": "made by kravataf using mcreator, blockbench and piskel",
+    "credits": "made by me",
     "modElementsPackage": "net.mcreator.srpr_kravataf",
     "lockBaseModFiles": false
   },
