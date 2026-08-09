@@ -9,12 +9,12 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
+import net.mcreator.srpr_kravataf.creativetab.TabSRPR;
 import net.mcreator.srpr_kravataf.ElementsScapeandRunReinforced;
 
 @ElementsScapeandRunReinforced.ModElement.Tag
@@ -46,7 +46,7 @@ public class BlockReinforcedStoneBricks extends ElementsScapeandRunReinforced.Mo
 			setResistance(1000F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+			setCreativeTab(TabSRPR.tab);
 		}
 	}
 }

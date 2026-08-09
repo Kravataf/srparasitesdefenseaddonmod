@@ -34,6 +34,30 @@
       "compiles": true,
       "locked_code": true,
       "ids": {}
+    },
+    {
+      "name": "ReinforcedGlass",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RGlassRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "SRPR",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -46,8 +70,10 @@
   ],
   "language_map": {
     "en_us": {
+      "tile.reinforcedglass.name": "Reinforced Glass",
       "tile.reinforcedstonebricks.name": "Reinforced Stone Bricks",
-      "tile.reinforcedoakwoodplanks.name": "Reinforced Oak Wood Planks"
+      "tile.reinforcedoakwoodplanks.name": "Reinforced Oak Wood Planks",
+      "itemGroup.tabsrpr": "SRPR"
     }
   },
   "workspaceSettings": {
